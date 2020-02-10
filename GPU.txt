@@ -13,4 +13,6 @@ gsim_sgl	// executable program of single thread version gsim / gsimの１スレ�
 gsim_uni	// executable program of unified memory / gisimのユニファイドメモリ版実行ファイル
 gsim_shrd	// executable program of unified + shared memory version gsim / gsimのユニファイドメモリ＋シェアードメモリ版実行ファイル
 mulpara.cu	// multiply sample program / 「１ブロックあたりのスレッド数を変えたときの処理時間の変化」の計測で使用したプログラム
-gsim.c		// gsimのCPU版（Linux+X-Windowで動作可）cc -o gsim gsim.c -lX11 -lmとしてコンパイル
+gsim.c		// C version of gsim /gsimのCPU版（Linux+X-Windowで動作可）cc -o gsim gsim.c -lX11 -lmとしてコンパイル
+gsim_explo.cu	// Inverse Proportion version / 距離の自乗に反比例版
+gsim_explo	// executable program of gsim_explo / gsim_exploの実行ファイル
